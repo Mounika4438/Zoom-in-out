@@ -33,3 +33,10 @@ function onDecBtn() {
             warning.style.color = "red";
     }
 }
+function onResetBtn() {
+    currWidth = 300;
+    currHeight = 200;
+    img.style.width = currWidth + "px";
+    img.style.height = currHeight + "px";
+    warning.textContent = "";
+}
